@@ -20,8 +20,8 @@ decompression of textures.
 
 %description -l pl
 Biblioteka kompresji/dekompresji tekstur S3TC/DXTN. Mo¿e byæ
-wczytywana dynamicznie (przez dlopen) przez bibliotekê Mesa w celu
-kompresji lub programowej dekompresji tekstur.
+wczytywana dynamicznie (poprzez dlopen), przez bibliotekê Mesa 
+w celu programowej kompresji lub dekompresji tekstur.
 
 %prep
 %setup -q -n %{name}
