@@ -1,12 +1,12 @@
 Summary:	S3TC/DXTN texture compression/decompression library
 Summary(pl):	Biblioteka kompresji/dekompresji tekstur S3TC/DXTN
 Name:		libtxc_dxtn
-Version:	040623
+Version:	060508
 Release:	1
 License:	MIT
 Group:		Libraries
 Source0:	http://homepage.hispeed.ch/rscheidegger/dri_experimental/%{name}%{version}.tar.gz
-# Source0-md5:	88fbcac3f7c06390a0c927ab8688e9ce
+# Source0-md5:	2b6533617012f5aab52f7f31bd28a8b0
 Patch0:		%{name}-make.patch
 URL:		http://homepage.hispeed.ch/rscheidegger/dri_experimental/s3tc_index.html
 BuildRequires:	OpenGL-devel
@@ -30,7 +30,7 @@ w celu programowej kompresji lub dekompresji tekstur.
 %build
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="%{rpmcflags} -Wall -pedantic"
+	OPT_CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
