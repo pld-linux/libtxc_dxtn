@@ -1,5 +1,5 @@
 Summary:	S3TC/DXTN texture compression/decompression library
-Summary(pl):	Biblioteka kompresji/dekompresji tekstur S3TC/DXTN
+Summary(pl.UTF-8):   Biblioteka kompresji/dekompresji tekstur S3TC/DXTN
 Name:		libtxc_dxtn
 Version:	060508
 Release:	1
@@ -18,9 +18,9 @@ S3TC/DXTN texture compression/decompression library. It can be
 dlopened by Mesa to perform online compression or software
 decompression of textures.
 
-%description -l pl
-Biblioteka kompresji/dekompresji tekstur S3TC/DXTN. Mo¿e byæ
-wczytywana dynamicznie (poprzez dlopen), przez bibliotekê Mesa 
+%description -l pl.UTF-8
+Biblioteka kompresji/dekompresji tekstur S3TC/DXTN. MoÅ¼e byÄ‡
+wczytywana dynamicznie (poprzez dlopen), przez bibliotekÄ™ Mesa 
 w celu programowej kompresji lub dekompresji tekstur.
 
 %prep
