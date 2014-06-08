@@ -2,7 +2,7 @@ Summary:	S3TC/DXTN texture compression/decompression library
 Summary(pl.UTF-8):	Biblioteka kompresji/dekompresji tekstur S3TC/DXTN
 Name:		libtxc_dxtn
 Version:	1.0.1
-Release:	2
+Release:	3
 Epoch:		1
 License:	MIT
 Group:		Libraries
@@ -27,7 +27,7 @@ programowej kompresji lub dekompresji tekstur.
 Summary:	Header file for txc_dxtn library
 Summary(pl.UTF-8):	Plik nagłówkowy biblioteki txc_dxtn
 Group:		Development/Libraries
-Requires:	%{name} = %{version}-%{release}
+Requires:	%{name} = %{epoch}:%{version}-%{release}
 
 %description devel
 Header file describing txc_dxtn library API.
